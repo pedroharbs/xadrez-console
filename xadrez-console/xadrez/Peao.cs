@@ -2,9 +2,9 @@
 
 namespace xadrez {
 
-    class Peao : Peca{
+    class Peao{
 
-        public Peao(Tabuleiro tab, Cor cor) : base(tab, cor) {
+        public Peao(Tabuleiro tab, Cor cor) {
         }
 
         public override string ToString() {

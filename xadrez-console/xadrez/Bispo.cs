@@ -2,9 +2,9 @@
 
 namespace xadrez {
 
-    class Bispo : Peca{
+    class Bispo{
 
-        public Bispo(Tabuleiro tab, Cor cor) : base(tab, cor) {
+        public Bispo(Tabuleiro tab, Cor cor) {
         }
 
         public override string ToString() {

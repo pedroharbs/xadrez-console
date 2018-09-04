@@ -2,9 +2,9 @@
 
 namespace xadrez {
 
-    class Dama : Peca{
+    class Dama{
 
-        public Dama(Tabuleiro tab, Cor cor) : base(tab, cor) {
+        public Dama(Tabuleiro tab, Cor cor)  {
         }
 
         public override string ToString() {
